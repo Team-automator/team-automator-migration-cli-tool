@@ -1,0 +1,28 @@
+{
+  "name": "team-automator-migration-cli-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bin": {
+    "migrate": "./dist/src/index.js"
+  },
+  "devDependencies": {
+    "@types/jscodeshift": "^17.3.0",
+    "jscodeshift": "^17.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "inquirer": "^12.7.0",
+    "jsonc-parser": "^3.3.1",
+    "log-symbols": "^7.0.1"
+  }
+}
