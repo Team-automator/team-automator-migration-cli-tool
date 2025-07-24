@@ -44,6 +44,8 @@ npm link
 cd team-automator-migration-cli-tool/mobile/swift-ui-migration-tool
 
 ```
+## 📋 Prerequisites
+Use mackbook for running SwiftUI migration tool
 
 ## 🔧 Execution
 
